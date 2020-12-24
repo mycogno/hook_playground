@@ -7,7 +7,7 @@ const content = [
   },
   {
     tab: "Section 2",
-    content: "I'm the ocntent of the Section 2",
+    content: "I'm the content of the Section 2",
   },
 ];
 

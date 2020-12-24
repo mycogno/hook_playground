@@ -9,3 +9,5 @@ This is my playground for studying react hook.
 - useInput(custom hook)
 
 - useTabs(custom hook)
+
+- useEffect
