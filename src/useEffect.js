@@ -7,7 +7,7 @@ const HookUseEffect = () => {
   useEffect(sayHello, []);
   return (
     <div className="App">
-      <div>Hi</div>
+      <h1>Hello useEffect!</h1>
       <button onClick={() => setNumber(number + 1)}>{number}</button>
       <button onClick={() => setAnumber(aNumber + 1)}>{aNumber}</button>
     </div>

@@ -11,3 +11,5 @@ This is my playground for studying react hook.
 - useTabs(custom hook)
 
 - useEffect
+
+- useTitle(custom hook)
