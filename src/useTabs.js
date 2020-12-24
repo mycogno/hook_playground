@@ -11,6 +11,7 @@ const content = [
   },
 ];
 
+// 선택한 Tab의 내용을 object로 return
 const useTabs = (initialTab, allTabs) => {
   const [currentIndex, setCurrentIndex] = useState(initialTab);
   if (!allTabs || !Array.isArray(allTabs)) {
@@ -22,11 +23,16 @@ const useTabs = (initialTab, allTabs) => {
   };
 };
 
+// 선택한 Section의 text만 보여주기
 const HookUseTabs = () => {
-  const { currentItem, changeItem } = useTabs(0, content);
+  const { currentItem, changeItem } = useTabs(0, content); //conten는 Array
   return (
-    <div className="app">
-      {content.map((section, index) => (
+    <div className="App">
+      <h1>Hello useTabs!</h1>
+      {content.map((
+        section,
+        index //section은 content요소
+      ) => (
         <button onClick={() => changeItem(index)}>{section.tab}</button>
       ))}
       <div>{currentItem.content}</div>

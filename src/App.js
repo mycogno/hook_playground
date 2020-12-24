@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <HookUseState initNumber={0} />
-      <HookUseInput />;
-      <HookUseTabs />;
+      <HookUseInput />
+      <HookUseTabs />
     </div>
   );
 }
