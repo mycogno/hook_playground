@@ -5,6 +5,7 @@ import HookUseInput from "./useInput";
 import HookUseTabs from "./useTabs";
 import HookUseEffect from "./useEffect";
 import HookUseTitle from "./useTitle";
+import HookUseClick from "./useClick";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HookUseTabs />
       <HookUseEffect />
       <HookUseTitle />
+      <HookUseClick />
     </div>
   );
 }

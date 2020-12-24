@@ -13,3 +13,5 @@ This is my playground for studying react hook.
 - useEffect
 
 - useTitle(custom hook)
+
+- useClick(custom hook) + useRef
