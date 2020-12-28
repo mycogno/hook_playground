@@ -19,3 +19,5 @@ This is my playground for studying react hook.
 - useConfirm(custom hook)
 
 - usePreventLeave(custom hook)
+
+- useBeforeLeave(custom hook)

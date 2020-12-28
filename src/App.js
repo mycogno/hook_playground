@@ -8,6 +8,7 @@ import HookUseTitle from "./useTitle";
 import HookUseClick from "./useClick";
 import HookUseConfirm from "./useConfirm";
 import HookUsePreventLeave from "./usePreventLeave";
+import HookUseBeforeLeave from "./useBeforeLeave";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <HookUseClick />
       <HookUseConfirm />
       <HookUsePreventLeave />
+      <HookUseBeforeLeave />
     </div>
   );
 }
