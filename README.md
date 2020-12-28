@@ -15,3 +15,7 @@ This is my playground for studying react hook.
 - useTitle(custom hook)
 
 - useClick(custom hook) + useRef
+
+- useConfirm(custom hook)
+
+- usePreventLeave(custom hook)
